@@ -78,7 +78,7 @@ services:
             ref: https://www.alibabacloud.com/product/ecs
             icon: ecs.png
       - huawei:
-          - name: Huawei Cloud Elastic Cloud Server
+          - name: Elastic Cloud Server
             ref: https://www.huaweicloud.com/intl/en-us/product/ecs.html
             icon: ecs.png
 
@@ -112,7 +112,7 @@ services:
             ref: https://www.alibabacloud.com/product/ebm
             icon: ecs.png
       - huawei:
-          - name: Huawei Cloud Bare Metal Server
+          - name: Bare Metal Server
             ref: https://www.huaweicloud.com/intl/en-us/product/bms.html
             icon: bms.png
   - category: Compute
@@ -193,7 +193,7 @@ services:
             ref: https://www.alibabacloud.com/product/ddh
             icon: alibaba.png
       - huawei:
-          - name: Huawei Cloud Dedicate Host
+          - name: Dedicated Host
             ref: https://www.huaweicloud.com/intl/en-us/product/deh.html
             icon: deh.png
   - category: Compute
@@ -238,9 +238,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: High Performance Computing
+            ref: https://www.huaweicloud.com/intl/en-us/solution/highperformance/
+            icon: ecs.png
   - category: Compute
     categoryurl:
     subcategory: Container Registration Service
@@ -328,9 +328,6 @@ services:
             ref: https://www.alibabacloud.com/product/kubernetes
             icon: ContainerServi.png
       - huawei:
-          - name: Cloud Container Instance
-            ref: https://www.huaweicloud.com/product/cci.html
-            icon: cci.png
           - name: Cloud Container Engine
             ref: https://www.huaweicloud.com/intl/en-us/product/cce.html
             icon: cce.png
@@ -370,9 +367,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Cloud Container Instance
+            ref: https://www.huaweicloud.com/intl/en-us/product/cci.html
+            icon: cci.png
   - category: Compute
     categoryurl:
     subcategory: Serverless container platform
@@ -403,9 +400,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Cloud Application Engine
+            ref: https://www.huaweicloud.com/intl/en-us/product/cae.html
+            icon: cae.png
   - category: Compute
     categoryurl:
     subcategory: Micro Services App Development Platform
@@ -450,7 +447,7 @@ services:
       - huawei:
           - name: FunctionGraph
             ref: https://www.huaweicloud.com/intl/en-us/product/functiongraph.html
-            icon: none.png
+            icon: functiongraph.png
   - category: Compute
     categoryurl:
     subcategory: Serverless app repository
@@ -517,8 +514,8 @@ services:
             ref: https://www.alibabacloud.com/product/swas#product-details
             icon: alibaba.png
       - huawei:
-          - name: Hyper Elastic Cloud Server
-            ref: https://www.huaweicloud.com/product/hecs.html
+          - name: Elastic Cloud Server
+            ref: https://www.huaweicloud.com/intl/en-us/product/ecs.html
             icon: ecs.png
 
   - category: Compute
@@ -629,9 +626,12 @@ services:
             ref: https://www.alibabacloud.com/product/edas
             icon: alibaba.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: CodeArts
+            ref: https://www.huaweicloud.com/intl/en-us/product/devcloud.html
+            icon: da.png
+          - name: Cloud Application Engine
+            ref: https://www.huaweicloud.com/intl/en-us/product/cae.html
+            icon: cae.png
   - category: Compute
     categoryurl:
     subcategory: Event Driven Computing
@@ -673,7 +673,7 @@ services:
       - huawei:
           - name: FunctionGraph
             ref: https://www.huaweicloud.com/intl/en-us/product/functiongraph.html
-            icon: none.png
+            icon: functiongraph.png
   - category: Storage
     categoryurl:
     subcategory: Object Storage
@@ -794,6 +794,9 @@ services:
           - name: Scalable File Service
             ref: https://www.huaweicloud.com/intl/en-us/product/sfs.html
             icon: sfs.png
+          - name: Scalable File Service Turbo
+            ref: https://www.huaweicloud.com/intl/en-us/product/sfsturbo.html
+            icon: sfs.png
 
   - category: Storage
     categoryurl:
@@ -868,9 +871,9 @@ services:
             ref: https://www.alibabacloud.com/product/storage-array
             icon: alibaba.png
       - huawei:
-          - name: Cloud Storage Gateway
-            ref: https://www.huaweicloud.com/product/csg.html
-            icon: csg.png
+          - name: 
+            ref: 
+            icon: none.png
 
   - category: Database
     categoryurl: https://en.wikipedia.org/wiki/Database
@@ -968,18 +971,21 @@ services:
             ref: https://www.alibabacloud.com/product/drds?spm=a3c0i.11270126.675768.dnavproductsd7.6c8668dcRLNbeB
             icon: rds.png
       - huawei:
-          - name: GaussDB(for openGauss)
+          - name: GaussDB
             ref: https://www.huaweicloud.com/intl/en-us/product/gaussdb.html
             icon: GaussDBforOpenGauss.png
-          - name: none.png
-            ref: https://www.huaweicloud.com/intl/en-us/product/gaussdb_mysql.html
-            icon: GaussDBforMysql.png
           - name: RDS for MySQL
             ref: https://www.huaweicloud.com/intl/en-us/product/mysql.html
             icon: mysql.png
           - name: RDS for PostgreSQL
             ref: https://www.huaweicloud.com/intl/en-us/product/pg.html
             icon: PostgreSQL.png
+          - name: TaurusDB
+            ref: https://www.huaweicloud.com/intl/en-us/product/taurusdb.html
+            icon: taurusdb.png
+          - name: RDS for MariaDB
+            ref: https://www.huaweicloud.com/intl/en-us/product/mariadb.html
+            icon: databaseRDS.png
 
   - category: Database
     categoryurl: https://en.wikipedia.org/wiki/NoSQL
@@ -1050,18 +1056,12 @@ services:
             ref: https://www.alibabacloud.com/product/table-store
             icon: rds.png
       - huawei:
-          - name: GaussDB(for Mongo)
-            ref: https://www.huaweicloud.com/intl/en-us/product/gaussdbformongo.html
-            icon: none.png
-          - name: GaussDB(for Cassandra)
-            ref: https://www.huaweicloud.com/intl/en-us/product/gaussdbforcassandra.html
-            icon: GaussDBforCassandra.png
+          - name: GeminiDB
+            ref: https://www.huaweicloud.com/intl/en-us/product/geminidb.html
+            icon: database.png
           - name: Document Database Service
             ref: https://www.huaweicloud.com/intl/en-us/product/dds.html
-            icon: none.png
-          - name: Graph Engine Service
-            ref: https://www.huaweicloud.com/intl/en-us/product/ges.html
-            icon: ges.png
+            icon: dcs.png
   - category: Database
     categoryurl:
     subcategory: Timeseries Database
@@ -1095,9 +1095,9 @@ services:
             ref: https://www.alibabacloud.com/product/hitsdb_influxdb
             icon: alibaba.png
       - huawei:
-          - name: GaussDB(for Influx)
-            ref: https://www.huaweicloud.com/intl/en-us/product/gaussdbforinflux.html
-            icon: GaussDBforInflux.png
+          - name: GeminiDB Influx API
+            ref: https://www.huaweicloud.com/intl/en-us/product/geminidb/influx.html
+            icon: database.png
   - category: Database
     categoryurl:
     subcategory: Graph Database
@@ -1131,10 +1131,7 @@ services:
             ref: 
             icon: none.png
       - huawei:
-          - name: FunctionGraph
-            ref: https://www.huaweicloud.com/intl/en-us/product/functiongraph.html
-            icon: none.png
-          - name: Graph Engine Service (GES)
+          - name: Graph Engine Service
             ref: https://www.huaweicloud.com/intl/en-us/product/ges.html
             icon: ges.png
   - category: Database
@@ -1170,12 +1167,9 @@ services:
             ref: https://www.alibabacloud.com/product/apsaradb-for-redis
             icon: redis.png
       - huawei:
-          - name: GaussDB(for Redis)
-            ref: https://www.huaweicloud.com/intl/en-us/product/gaussdbforredis.html
-            icon: GaussDBforRedis.png
           - name: Distributed Cache Service for Redis
             ref: https://www.huaweicloud.com/intl/en-us/product/dcs.html
-            icon: dcs.png
+            icon: databaseDCS.png
   - category: Database
     categoryurl: https://en.wikipedia.org/wiki/Data_warehouse
     subcategory: Data Warehousing
@@ -1209,7 +1203,7 @@ services:
             ref: https://www.alibabacloud.com/product/maxcompute
             icon: MaxCompute.png
       - huawei:
-          - name: GaussDB(DWS)
+          - name: Data Warehouse Service
             ref: https://www.huaweicloud.com/intl/en-us/product/dws.html
             icon: dws.png
   - category: Migration Services
@@ -1251,7 +1245,7 @@ services:
             ref: https://www.alibabacloud.com/product/data-transmission-service
             icon: dts.png
       - huawei:
-          - name: Data Replication Service(DRS)
+          - name: Data Replication Service
             ref: https://www.huaweicloud.com/intl/en-us/product/drs.html
             icon: drs.png
   - category: Migration Services
@@ -1342,9 +1336,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: Data Express Service - Disk
-            ref: https://www.huaweicloud.com/intl/en-us/product/des.html
-            icon: des.png
+          - name: Cloud Data Migration
+            ref: https://www.huaweicloud.com/intl/en-us/product/cdm.html
+            icon: cdm.png
 
   - category: Migration Services
     categoryurl:
@@ -1379,9 +1373,9 @@ services:
             ref: https://www.alibabacloud.com/product/data-transport
             icon: alibaba.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Data Express Service
+            ref: https://www.huaweicloud.com/intl/en-us/product/des.html
+            icon: des.png
 
   - category: Migration Services
     categoryurl:
@@ -1419,7 +1413,7 @@ services:
             ref: https://www.alibabacloud.com/product/data-transport
             icon: alibaba.png
       - huawei:
-          - name: Data Express Service - Teleport
+          - name: Data Express Service
             ref: https://www.huaweicloud.com/intl/en-us/product/des.html
             icon: des.png
 
@@ -1528,7 +1522,7 @@ services:
             icon: vpc.png
   - category: Networking & Content Delivery
     categoryurl:
-    subcategory: Virtual network connectivity
+    subcategory: Virtual Network Connectivity
     subcategoryurl:
     service:
       - aws:
@@ -1558,11 +1552,13 @@ services:
           - name:
             ref:
             icon: none.png
-
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: VPC Peering Connection
+            ref: https://support.huaweicloud.com/intl/en-us/productdesc-vpc/vpc_Concepts_0011.html
+            icon: vpc.png
+          - name: Cloud Connect
+            ref: https://www.huaweicloud.com/intl/en-us/product/cc.html
+            icon: cc.png
 
   - category: Networking & Content Delivery
     categoryurl:
@@ -1600,9 +1596,15 @@ services:
             ref: https://www.alibabacloud.com/product/vpn-gateway
             icon: alibaba.png
       - huawei:
-          - name: Virtual Private Network
+          - name: VPN Gateway
             ref: https://www.huaweicloud.com/intl/en-us/product/vpn.html
             icon: vpn.png
+          - name: NAT Gateway
+            ref: https://www.huaweicloud.com/intl/en-us/product/nat.html
+            icon: csg.png
+          - name: Direct Connect
+            ref: https://www.huaweicloud.com/intl/en-us/product/dc.html
+            icon: dc.png
 
   - category: Networking & Content Delivery
     categoryurl:
@@ -1637,7 +1639,7 @@ services:
             ref: https://www.alibabacloud.com/product/cdn
             icon: cdn.png
       - huawei:
-          - name: Huawei Cloud CDN
+          - name: Content Delivery Network
             ref: https://www.huaweicloud.com/intl/en-us/product/cdn.html
             icon: hwCDN.png
 
@@ -1713,9 +1715,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: Domain Name Service
-            ref: https://www.huaweicloud.com/intl/en-us/product/dns.html
-            icon: dns.png
+          - name: Global Accelerator
+            ref: https://www.huaweicloud.com/intl/en-us/product/ga.html
+            icon: ga.png
 
   - category: Hybrid Cloud
     categoryurl:
@@ -1753,9 +1755,12 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: Huawei Cloud CLOUD Stack
+          - name: Huawei Cloud Stack
             ref: https://www.huaweicloud.com/intl/en-us/product/huaweicloudstack.html
             icon: hcs.png
+          - name: CloudPond
+            ref: https://www.huaweicloud.com/intl/en-us/product/cloudpond.html
+            icon: cloud.png
   - category: Networking & Content Delivery
     categoryurl:
     subcategory: Private Connectivity
@@ -1907,9 +1912,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: DevStar
-            ref: https://developer.huaweicloud.com/resource/devstar.html
-            icon: devstar.png
+          - name: CodeArts
+            ref: https://www.huaweicloud.com/intl/en-us/product/devcloud.html
+            icon: da.png
 
   - category: Developer Tools
     categoryurl: https://en.wikipedia.org/wiki/Programming_tool
@@ -1967,7 +1972,7 @@ services:
       - huawei:
           - name: HUAWEI CLOUD SDKs
             ref: https://developer.huaweicloud.com/intl/en-us/sdk?all
-            icon: none.png
+            icon: sdk.png
 
   - category: Management Tools
     categoryurl:
@@ -2042,11 +2047,10 @@ services:
           - name: Resource Orchestration Service
             ref: https://www.alibabacloud.com/product/ros
             icon: ros.png
-
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Resource Formation Service
+            ref: https://www.huaweicloud.com/intl/en-us/product/aos.html
+            icon: rfs.png
 
   - category: Management Tools
     categoryurl: https://en.wikipedia.org/wiki/Infrastructure_as_Code
@@ -2144,15 +2148,18 @@ services:
             ref: https://www.alibabacloud.com/product/arms
             icon: CloudMonitor.png
       - huawei:
-          - name: LTS
+          - name: Log Tank Service
             ref: https://www.huaweicloud.com/intl/en-us/product/lts.html
             icon: lts.png
-          - name: AOM
+          - name: Application Operations Management
             ref: https://www.huaweicloud.com/intl/en-us/product/aom.html
             icon: aom.png
-          - name: CES
+          - name: Cloud Eye
             ref: https://www.huaweicloud.com/intl/en-us/product/ces.html
             icon: ces.png
+          - name: Cloud Trace Service
+            ref: https://www.huaweicloud.com/intl/en-us/product/cts.html
+            icon: cts.png
 
   - category: Management Tools
     categoryurl:
@@ -2193,9 +2200,12 @@ services:
             ref: https://www.alibabacloud.com/product/log-service
             icon: log-service.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Huawei Cloud Config
+            ref: https://www.huaweicloud.com/intl/en-us/product/rms.html
+            icon: cloud.png
+          - name: Resource Access Manager
+            ref: https://www.huaweicloud.com/intl/en-us/product/ram.html
+            icon: costMgmt.png
 
   - category: Management Tools
     categoryurl:
@@ -2236,8 +2246,8 @@ services:
             ref: https://www.alibabacloud.com/product/ros
             icon: ros.png
       - huawei:
-          - name:
-            ref:
+          - name: 
+            ref: 
             icon: none.png
 
   - category: Management Tools
@@ -2270,7 +2280,7 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
+          - name: 
             ref:
             icon: none.png
 
@@ -2325,10 +2335,13 @@ services:
           - name: Cost Management
             ref: https://support.huaweicloud.com/intl/en-us/usermanual-cost/costcenter_0000001.html
             icon: costMgmt.png
+          - name: Optimization Advisor
+            ref: https://www.huaweicloud.com/intl/en-us/product/oa.html
+            icon: oa.png
 
   - category: Management Tools
     categoryurl:
-    subcategory: Alerts and Remediation guidance Service
+    subcategory: Alerts and Remediation Guidance Service
     subcategoryurl:
     service:
       - aws:
@@ -2374,9 +2387,9 @@ services:
             ref: https://www.alibabacloud.com/product/cloud-monitor
             icon: CloudMonitor.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Cloud Eye
+            ref: https://www.huaweicloud.com/intl/en-us/product/ces.html
+            icon: ces.png
 
   - category: Management Tools
     categoryurl:
@@ -2456,21 +2469,9 @@ services:
             ref: https://www.alibabacloud.com/help/doc-detail/66653.htm
             icon: alibaba.png
       - huawei:
-          - name: Open APIs
-            ref: https://developer.huaweicloud.com/intl/en-us/openapilist
-            icon: none.png
           - name: API Explorer
-            ref: https://apiexplorer.developer.huaweicloud.com/apiexplorer/overview
-            icon: none.png
-          - name: HCloud CLI
-            ref: https://support.huaweicloud.com/productdesc-hcli/hcli_01.html
-            icon: hcloudcli.png
-          - name: Terraform Explorer
-            ref: https://terraform.developer.huaweicloud.com/terraform/overview
-            icon: none.png
-          - name: CloudShell
-            ref: https://shell.huaweicloud.com/
-            icon: none.png
+            ref: https://console-intl.huaweicloud.com/apiexplorer/#/openapi/overview?locale=en-us
+            icon: apig.png
 
   - category: Management Tools
     categoryurl:
@@ -2545,11 +2546,13 @@ services:
           - name: Hybrid Backup Recovery
             ref: https://www.alibabacloud.com/product/hbr
             icon: alibaba.png
-
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Cloud Backup and Recovery
+            ref: https://www.huaweicloud.com/intl/en-us/product/cbr.html
+            icon: cbr.png
+          - name: Storage Disaster Recovery Service
+            ref: https://www.huaweicloud.com/intl/en-us/product/sdrs.html
+            icon: sdrs.png
 
   - category: Security, Identity & Compliance
     categoryurl:
@@ -2588,7 +2591,7 @@ services:
             icon: ram.png
       - huawei:
           - name: Identity and Access Management
-            ref: https://www.huaweicloud.com/intl/en-us/s/JUlBTSU
+            ref: https://www.huaweicloud.com/intl/en-us/product/iam.html
             icon: iam.png
 
   - category: Security, Identity & Compliance
@@ -2624,9 +2627,9 @@ services:
             ref:
             icon:
       - huawei:
-          - name:
-            ref:
-            icon:
+          - name: IAM Identity Center
+            ref: https://support.huaweicloud.com/intl/en-us/productdesc-identitycenter/iic_01_0002.html
+            icon: iam.png
 
   - category: Security, Identity & Compliance
     categoryurl:
@@ -2664,9 +2667,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: SecMaster
+            ref: https://www.huaweicloud.com/intl/en-us/product/secmaster.html
+            icon: sm.png
 
   - category: Security, Identity & Compliance
     categoryurl:
@@ -2698,8 +2701,8 @@ services:
             ref: https://www.alibabacloud.com/product/certificates
             icon: SSL.png
       - huawei:
-          - name: SSL Certificate Manager
-            ref: https://www.huaweicloud.com/intl/en-us/product/scm.html
+          - name: Cloud Certificate Manager
+            ref: https://www.huaweicloud.com/intl/en-us/product/ccm.html
             icon: ssl.png
   - category: Security, Identity & Compliance
     categoryurl:
@@ -2873,9 +2876,9 @@ services:
             icon: none.png
 
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Resource Access Manager
+            ref: https://www.huaweicloud.com/intl/en-us/product/ram.html
+            icon: costMgmt.png
 
   - category: Security, Identity & Compliance
     categoryurl:
@@ -2976,9 +2979,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: Security Compliance
-            ref: https://www.huaweicloud.com/intl/en-us/securecenter/safetycompliance.html
-            icon: none.png
+          - name: Cloud Firewall
+            ref: https://www.huaweicloud.com/intl/en-us/product/cfw.html
+            icon: waf.png
   - category: Security, Identity & Compliance
     categoryurl:
     subcategory: Security & Compliance Service
@@ -3081,7 +3084,7 @@ services:
       - huawei:
           - name: Data Lake Insight
             ref: https://www.huaweicloud.com/intl/en-us/product/dli.html
-            icon: none.png
+            icon: DLI.png
   - category: Big Data & Advanced Analytics
     categoryurl:
     subcategory: Big Data Managed Cluster as a Service
@@ -3114,7 +3117,7 @@ services:
       - huawei:
           - name: MapReduce Service
             ref: https://www.huaweicloud.com/intl/en-us/product/mrs.html
-            icon: none.png
+            icon: MRS.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3150,8 +3153,8 @@ services:
             icon: none.png
       - huawei:
           - name: Cloud Search Service
-            ref: https://www.huaweicloud.com/intl/en-us/product/es.html
-            icon: none.png
+            ref: https://www.huaweicloud.com/intl/en-us/product/css.html
+            icon: css.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3192,9 +3195,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: "Data Lake Insight [Previous: Cloud Stream Service]"
-            ref: https://www.huaweicloud.com/intl/en-us/product/dli.html
-            icon: none.png
+          - name: Cloud Stream Service
+            ref: https://www.huaweicloud.com/intl/en-us/product/cs.html
+            icon: data.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3275,9 +3278,9 @@ services:
             ref: https://www.alibabacloud.com/product/ide
             icon: IDE.png
       - huawei:
-          - name: Data Lake Visulization
+          - name: Data Lake Visualization
             ref: https://www.huaweicloud.com/intl/en-us/product/dlv.html
-            icon: none.png
+            icon: DLV.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
@@ -3339,12 +3342,12 @@ services:
             ref: https://www.alibabacloud.com/product/data-integration
             icon: alibaba.png
       - huawei:
-          - name: Data Lake Governance Center
+          - name: DataArts Studio
             ref: https://www.huaweicloud.com/intl/en-us/product/dayu.html
-            icon: none.png
+            icon: data.png
   - category: Big Data & Advanced Analytics
     categoryurl:
-    subcategory: Third party data exchange
+    subcategory: Third Party Data Exchange
     subcategoryurl:
     service:
       - aws:
@@ -3372,12 +3375,12 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Data Ingestion Service
+            ref: https://www.huaweicloud.com/intl/en-us/product/dis.html
+            icon: dis.png
   - category: Big Data & Advanced Analytics
     categoryurl:
-    subcategory: Data Analytics platform
+    subcategory: Data Analytics Platform
     subcategoryurl:
     service:
       - aws:
@@ -3405,9 +3408,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: DataArts Studio
+            ref: https://www.huaweicloud.com/intl/en-us/product/dayu.html
+            icon: data.png
 
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
@@ -3472,25 +3475,15 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: Conversation Bot Service
+          - name: Question Answering Bot
             ref: https://www.huaweicloud.com/intl/en-us/product/cbsqa.html
             icon: cbsqa.png
-
-          - name: Natural Language Processing
-            ref: https://www.huaweicloud.com/product/nlplu.html
-            icon: nlp.png
-
-          - name: Text to Speech
-            ref: https://www.huaweicloud.com/product/tts.html
+          - name: Optical Character Recognition
+            ref: https://www.huaweicloud.com/intl/en-us/product/ocr.html
             icon: tts.png
-
-          - name: Machine Translation Service
-            ref: https://www.huaweicloud.com/product/nlpmt.html
-            icon: mts.png
-
-          - name: Knowledge Graph
-            ref: https://www.huaweicloud.com/product/nlpkg.html
-            icon: none.png
+          - name: Speech Interaction Service
+            ref: https://support.huaweicloud.com/intl/en-us/sis/index.html
+            icon: nlp.png
 
   - category: Artificial Intelligence
     categoryurl:
@@ -3537,17 +3530,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: ASR
-            ref: https://www.huaweicloud.com/intl/en-us/product/asr.html
-            icon: asr.png
-
-          - name: Real-time ASR
-            ref: https://www.huaweicloud.com/product/rasr.html
-            icon: rasr.png
-
-          - name: ASR Customization
-            ref: https://www.huaweicloud.com/intl/en-us/product/asrc.html
-            icon: none.png
+          - name: Speech Interaction Service
+            ref: https://support.huaweicloud.com/intl/en-us/sis/index.html
+            icon: nlp.png
 
   - category: Artificial Intelligence
     categoryurl:
@@ -3590,25 +3575,16 @@ services:
       - huawei:
           - name: Image Recognition
             ref: https://www.huaweicloud.com/intl/en-us/product/image.html
-            icon: image.png
+            icon: img.png
           - name: Image Search
             ref: https://www.huaweicloud.com/intl/en-us/product/imagesearch.html
             icon: imageSearch.png
-          - name: Image Tagging
-            ref: https://www.huaweicloud.com/product/imagetagging.html
-            icon: imageTagging.png
-          - name: Video Content Tagging
-            ref: https://www.huaweicloud.com/product/vct.html
-            icon: vct.png
-          - name: Video Ingestion Service
-            ref: https://www.huaweicloud.com/product/vis.html
-            icon: vis.png
           - name: Content Moderation
             ref: https://www.huaweicloud.com/intl/en-us/product/moderation.html
             icon: moderation.png
-          - name: Celebrity Recognition
-            ref: https://www.huaweicloud.com/product/roc.html
-            icon: roc.png
+          - name: Video Intelligent Analysis Service
+            ref: https://www.huaweicloud.com/intl/en-us/product/vias.html
+            icon: vct.png          
 
   - category: Artificial Intelligence
     categoryurl:
@@ -3700,9 +3676,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: ModelArts
+            ref: https://www.huaweicloud.com/intl/en-us/product/modelarts.html
+            icon: ModelArts.png
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
     subcategory: Business analysis
@@ -3751,8 +3727,8 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
+          - name: 
+            ref: 
             icon: none.png
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
@@ -3784,9 +3760,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: ModelArts
+            ref: https://www.huaweicloud.com/intl/en-us/product/modelarts.html
+            icon: ModelArts.png
   - category: Artificial Intelligence / Machine Learning
     categoryurl:
     subcategory: Intelligent Search / Search with ML
@@ -3817,9 +3793,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: KooSearch
+            ref: https://www.huaweicloud.com/product/koosearch.html
+            icon: DLI.png
   - category: Mobile Services
     categoryurl:
     subcategory: Mobile App Development Services
@@ -3853,8 +3829,8 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: ServiceStage-MBaaS
-            ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
+          - name: 
+            ref:
             icon: none.png
 
   - category: Mobile Services
@@ -3924,8 +3900,8 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: ServiceStage-MBaaS
-            ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
+          - name: 
+            ref: 
             icon: none.png
 
   - category: Automated Cloud Management Service
@@ -3961,9 +3937,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Cloud Operations Center
+            ref: https://www.huaweicloud.com/intl/en-us/product/coc.html
+            icon: coc.png
 
   - category: Mobile Services
     categoryurl:
@@ -3995,9 +3971,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: MobileTest
-            ref: https://www.huaweicloud.com/product/mobileapptest.html
-            icon: MobileTest.png
+          - name:
+            ref: 
+            icon: none.png
   - category: Mobile Services
     categoryurl:
     subcategory: Mobile App Software Development Toolkit
@@ -4129,9 +4105,12 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: ServiceStage-MBaaS
+          - name: ServiceStage
             ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
-            icon: none.png
+            icon: ServiceStage.png
+          - name: HMS Core
+            ref: https://www.huaweicloud.com/intl/en-us/product/HMS.html
+            icon: cloud.png
 
   - category: Application Services
     categoryurl:
@@ -4258,20 +4237,14 @@ services:
             icon: video.png
       - huawei:
           - name: Media Processing Center
-            ref: https://www.huaweicloud.com/en-us/product/mpc.html
+            ref: https://www.huaweicloud.com/intl/en-us/product/mpc.html
             icon: mpc.png
-
           - name: Video on Demand
-            ref: https://www.huaweicloud.com/en-us/product/vod.html
+            ref: https://www.huaweicloud.com/intl/en-us/product/vod.html
             icon: vod.png
-
           - name: Live
-            ref: https://www.huaweicloud.com/en-us/product/live.html
+            ref: https://www.huaweicloud.com/intl/en-us/product/live.html
             icon: live.png
-
-          - name: Convergent Video Cloud Service
-            ref: https://www.huaweicloud.com/en-us/product/cvcs.html
-            icon: cvcs.png
 
   - category: Application Services
     categoryurl:
@@ -4324,6 +4297,13 @@ services:
           - name: Distributed Message Service for Kafka
             ref: https://www.huaweicloud.com/intl/en-us/product/dmskafka.html
             icon: DMSforKafka.png
+          - name: Distributed Message Service for RabbitMQ
+            ref: https://www.huaweicloud.com/intl/en-us/product/rabbitmq.html
+            icon: dms.png
+          - name: Distributed Message Service for RocketMQ
+            ref: https://www.huaweicloud.com/intl/en-us/product/rocketmq.html
+            icon: dms.png
+
   - category: Application Services
     categoryurl:
     subcategory: Mobile Analytics
@@ -4354,9 +4334,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: ServiceStage-MBaaS
+          - name: ServiceStage
             ref: https://www.huaweicloud.com/intl/en-us/product/servicestage.html
-            icon: none.png
+            icon: ServiceStage.png
 
   - category: Application Services
     categoryurl:
@@ -4388,9 +4368,9 @@ services:
             ref: https://www.alibabacloud.com/product/directmail
             icon: directmail.png
       - huawei:
-          - name: CoreMail
-            ref: https://marketplace.huaweicloud.com/intl/product/f4cd8ad7-ecb4-41fe-9706-504315bf5aaa
-            icon: none.png
+          - name: KooMessage
+            ref: https://www.huaweicloud.com/intl/en-us/product/koomessage.html
+            icon: msgsms.png
 
   - category: Application Services
     categoryurl:
@@ -4425,10 +4405,10 @@ services:
             ref: https://www.alibabacloud.com/product/short-message-service
             icon: alibaba.png
       - huawei:
-          - name: Simple Message Notification (SMN)
+          - name: Simple Message Notification
             ref: https://www.huaweicloud.com/intl/en-us/product/smn.html
             icon: smn.png
-          - name: Message&SMS (MSGSMS)
+          - name: Message & SMS
             ref: https://www.huaweicloud.com/intl/en-us/product/msgsms.html
             icon: msgsms.png
   - category: Application Services
@@ -4512,9 +4492,9 @@ services:
             ref: https://www.alibabacloud.com/product/bot
             icon: alibaba.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: Question Answering Bot
+            ref: https://www.huaweicloud.com/intl/en-us/product/cbsqa.html
+            icon: cbsqa.png
 
   - category: Business Productivity
     categoryurl:
@@ -4552,8 +4532,8 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: WPS
-            ref: https://marketplace.huaweicloud.com/intl/product/00301-107037-0--0
+          - name: 
+            ref: 
             icon: none.png
 
   - category: Business Productivity
@@ -4592,11 +4572,11 @@ services:
             ref:
             icon: none.png
       - huawei:
+          - name: Workspace
+            ref: https://www.huaweicloud.com/intl/en-us/product/workspace.html
+            icon: EnterpriseAPPWorkspace.png
           - name: FusionCloud Desktop
             ref: https://carrier.huawei.com/en/products/it/cloud-transformation/fusioncloud-desktop
-            icon: none.png
-          - name: Workspace
-            ref:
             icon: EnterpriseAPPWorkspace.png
           
   - category: Business Productivity
@@ -4632,9 +4612,13 @@ services:
             ref:
             icon: none.png
       - huawei:
+          - name: WeLink
+            ref: https://www.huaweicloud.com/intl/en-us/product/welink.html
+            icon: im.png
           - name: Workspace
-            ref:
+            ref: https://www.huaweicloud.com/intl/en-us/product/workspace.html
             icon: EnterpriseAPPWorkspace.png
+
   - category: Software MarketPlace
     categoryurl:
     subcategory: Cloud Marketplace
@@ -4665,9 +4649,9 @@ services:
             ref: https://www.alibabacloud.com/marketplace
             icon: alibaba.png
       - huawei:
-          - name: Huawei Cloud Marketplace
+          - name: KooGallery
             ref: https://marketplace.huaweicloud.com/intl/
-            icon: none.png
+            icon: market.png
   - category: Internet of Things
     categoryurl:
     subcategory: IoT Platform
@@ -4707,18 +4691,15 @@ services:
             ref: https://www.alibabacloud.com/product/iot
             icon: iot.png
       - huawei:
-          - name: HUAWEI CLOUD IoT
-            ref: https://www.huaweicloud.com/product/iot.html
+          - name: IoT Device Management
+            ref: https://www.huaweicloud.com/intl/en-us/product/iot.html
             icon: IoT.png
-          - name: HUAWEI CLOUD IoT Device Access
-            ref: https://www.huaweicloud.com/product/iothub.html
+          - name: IoT Device Access
+            ref: https://www.huaweicloud.com/intl/en-us/product/iotda.html
             icon: IoTDeviceAccess.png
-          - name: HUAWEI CLOUD IoT Edge
-            ref: https://www.huaweicloud.com/product/iotedge.html
-            icon: IoTEdge.png
-          - name: HUAWEI CLOUD IoT Global SIM Link
-            ref: https://www.huaweicloud.com/product/globalsimlink.html
-            icon: none.png
+          - name: Global SIM Link
+            ref: https://www.huaweicloud.com/intl/en-us/product/gsl.html
+            icon: gsl.png
 
   - category: Internet of Things
     categoryurl:
@@ -4753,15 +4734,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: HUAWEI Cloud IoT Edge
-            ref: https://www.huaweicloud.com/product/iotedge.html
-            icon: IoTEdge.png
-          - name: HUAWEI Cloud IoT LiteOS
-            ref: https://www.huaweicloud.com/product/liteos.html
-            icon: none.png
-          - name: HUAWEI Cloud IoT Stage
-            ref: https://www.huaweicloud.com/product/iotstage.html
-            icon: IoTStage.png
+          - name: IoT Device Access
+            ref: https://www.huaweicloud.com/intl/en-us/product/iotda.html
+            icon: IoTDeviceAccess.png
 
   - category: Internet of Things
     categoryurl:
@@ -4793,9 +4768,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name: HUAWEI Cloud IoT Analysis
-            ref: https://www.huaweicloud.com/product/iotanalytics-platform.html
-            icon: IoTanalytics.png
+          - name: 
+            ref: 
+            icon: none.png
   - category: Internet of Things
     categoryurl:
     subcategory: IoT Hardware
@@ -4859,9 +4834,9 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: HMS Core
+            ref: https://www.huaweicloud.com/intl/en-us/product/HMS.html
+            icon: cloud.png
   - category: Robotics Development
     categoryurl:
     subcategory: Robotics Development
@@ -4892,8 +4867,8 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
+          - name: 
+            ref: 
             icon: none.png
   - category: Development & Testing
     categoryurl:
@@ -4925,6 +4900,6 @@ services:
             ref:
             icon: none.png
       - huawei:
-          - name:
-            ref:
-            icon: none.png
+          - name: CodeArts
+            ref: https://www.huaweicloud.com/intl/en-us/product/devcloud.html
+            icon: da.png
