@@ -3154,7 +3154,7 @@ services:
       - huawei:
           - name: Cloud Search Service
             ref: https://www.huaweicloud.com/intl/en-us/product/css.html
-            icon: css.png
+            icon: CSS.png
 
   - category: Big Data & Advanced Analytics
     categoryurl:
