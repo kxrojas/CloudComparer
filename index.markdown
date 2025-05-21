@@ -19,6 +19,9 @@ layout: home
   <tr align="center" class="header" style="position:sticky;top: 0">
 	            <th style="width:7%">Category</th>
             <th style="width:10%">Service</th>
+			<th>
+              <img  src="{{ site.baseurl }}/assets/img/logo/huawei.png" alt="Huawei Cloud"/>
+            </th>
             <th>
               <img  src="{{ site.baseurl }}/assets/img/logo/aws.png" alt="AWS Icon" class="header-img"/>
             </th>
@@ -37,14 +40,23 @@ layout: home
             <th>
               <img src="{{ site.baseurl }}/assets/img/logo/alibaba.png" alt="Alibaba Cloud Logo"/>
             </th>
-			<th>
-              <img  src="{{ site.baseurl }}/assets/img/logo/huawei.png" alt="Huawei Cloud"/>
-            </th>
   </tr>
 	{% for item in site.data.cloudservices.services %}
 	<tr>
 		<td>{{item.category}}</td>
 		<td>{{item.subcategory}}</td>
+		<td>
+			<ul>
+			    {% for entry in item.service %} 
+					{% for record in entry.huawei %}
+							<li>
+								<img src="{{ site.baseurl }}/assets/img/cloudproviders/huawei/{{record.icon}}" alt="{{record.name}}">
+								<a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a>
+							</li>
+					{% endfor %}	
+				{% endfor %}	
+			</ul>
+		</td>
 		<td>
 			<ul>
 			    {% for entry in item.service %} 
@@ -95,18 +107,6 @@ layout: home
 			    {% for entry in item.service %} 
 					{% for record in entry.alibaba %}
 							<li><img src="{{ site.baseurl }}/assets/img/cloudproviders/alibaba/{{record.icon}}" alt="{{record.name}}" ><a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a></li>
-					{% endfor %}	
-				{% endfor %}	
-			</ul>
-		</td>
-		<td>
-			<ul>
-			    {% for entry in item.service %} 
-					{% for record in entry.huawei %}
-							<li>
-								<img src="{{ site.baseurl }}/assets/img/cloudproviders/huawei/{{record.icon}}" alt="{{record.name}}">
-								<a href="{{record.ref}}" target="_blank" alt="{{record.name}}">{{record.name}}</a>
-							</li>
 					{% endfor %}	
 				{% endfor %}	
 			</ul>
